@@ -25,7 +25,7 @@ def generate_output(text):
 							 unsafe_allow_html=True)
    
              
-	q_text = '> '.join(text.splitlines(True))   
+	 
 	
 	st.markdown(q_text)
 
