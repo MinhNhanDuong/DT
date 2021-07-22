@@ -24,9 +24,9 @@ def generate_output(text):
 		  st.markdown("<h1><span style='color:yellow'>This is a OTHER news!</span></h1>",
 							 unsafe_allow_html=True)
    
-             
-	 
-	
+        
+	q_text = '> '.join(text.splitlines(True))  
+	q_text = '> ' + q_text
 	st.markdown(q_text)
 
 	wc = WordCloud(width = 1000, height = 600,
