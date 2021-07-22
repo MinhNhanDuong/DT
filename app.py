@@ -26,7 +26,7 @@ def generate_output(text):
    
              
 	q_text = '> '.join(text.splitlines(True))   
-	q_text = '> ' + q_text
+	
 	st.markdown(q_text)
 
 	wc = WordCloud(width = 1000, height = 600,
